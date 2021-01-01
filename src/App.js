@@ -12,15 +12,8 @@ const App = () => {
       <Header />
       <main className="py-3">
         <Container>
-          <Route
-            exact
-            path="https://abhishekshaw1007.github.io/BookFront/"
-            component={HomeScreen}
-          />
-          <Route
-            path="https://abhishekshaw1007.github.io/BookFront/product/:id"
-            component={ProductScreen}
-          />
+          <Route exact path="/BookFront" component={HomeScreen} />
+          <Route path="/BookFront/product/:id" component={ProductScreen} />
         </Container>
       </main>
       <Footer />
