@@ -1,0 +1,50 @@
+main {
+  min-height: 80vh;
+}
+/* added git again... */
+b,
+strong {
+  font-weight: 900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none;
+  letter-spacing: 3px;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+h2 {
+  text-transform: none;
+}
+
+.col {
+  font-size: medium;
+}
+
+span.desc_title {
+  font-weight: 900;
+}
+
+img {
+  height: 250px;
+}
+
+h3.price_block {
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 8px;
+  /* border-width: medium; */
+  width: fit-content;
+}
