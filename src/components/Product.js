@@ -10,11 +10,15 @@ const Product = ({ product }) => {
   return (
     <>
       <Card className="my-3 p-3 rounded">
-        <Link to={`/product/${product.book_id}`}>
+        <Link
+          to={`https://abhishekshaw1007.github.io/BookFront/product/${product.book_id}`}
+        >
           <Card.Img src={product.image} variant="top" />
         </Link>
         <Card.Body>
-          <Link to={`/product/${product.book_id}`}>
+          <Link
+            to={`https://abhishekshaw1007.github.io/BookFront/product/${product.book_id}`}
+          >
             <Card.Title as="div">
               <strong>{product.title}</strong>
             </Card.Title>
