@@ -7,18 +7,18 @@ const Header = () => {
     <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
-          <LinkContainer to="/">
+          <LinkContainer to="https://abhishekshaw1007.github.io/BookFront/">
             <Navbar.Brand>Online Book Store</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <LinkContainer to="/cart">
+              <LinkContainer to="https://abhishekshaw1007.github.io/BookFront/cart">
                 <Nav.Link>
                   <i className="fas fa-shopping-cart"></i>Cart
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/login">
+              <LinkContainer to="https://abhishekshaw1007.github.io/BookFront/login">
                 <Nav.Link>
                   <i className="far fa-user"></i>Sign In
                 </Nav.Link>
