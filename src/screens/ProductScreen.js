@@ -5,8 +5,6 @@ import Rating from "./../components/Rating";
 import products from "./../products";
 import { PropTypes } from "prop-types";
 
-// added git again...
-
 const ProductScreen = ({ match }) => {
   const product = products.find((e) => e.book_id === match.params.id);
   return (

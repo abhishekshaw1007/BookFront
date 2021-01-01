@@ -6,8 +6,6 @@ import Footer from "./components/Footer";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 
-// added git again...
-
 const App = () => {
   return (
     <Router>

@@ -4,8 +4,6 @@ import PropTypes from "prop-types";
 import { Card } from "react-bootstrap";
 import Rating from "./Rating";
 
-// added git again...
-
 const Product = ({ product }) => {
   return (
     <>
