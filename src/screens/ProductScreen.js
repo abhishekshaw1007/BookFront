@@ -9,7 +9,7 @@ const ProductScreen = ({ match }) => {
   const product = products.find((e) => e.book_id === match.params.id);
   return (
     <>
-      <Link className="btn btn-dark my-3" to="/BookFront">
+      <Link className="btn btn-dark my-3" to="/">
         Go Back
       </Link>
       <Row>
